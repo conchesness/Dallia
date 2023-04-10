@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div>
+
+        
+<h1><center><u>The language aid</u></center></h1>
+<p>Welcome to the language helper, where we aid those who desire to imporve their Cantonese and Vietnamese. Please note that this webiste can only teach and improve basic Cantonese and Vietanamese grammar and phrases. You can only be good at the language if you practice your speaking skills with other people.</p>
+<p>Attempt to speak the language daily!</p>
+
+<!--Chart of things we teach-->
+<h3>Click the links below to learn the grammar, and puncuation of Vietnamese and Cantonese.</h3>
+<br>
+<br>
+<br>
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+      <div class="col"><button type="button" class="btn btn-danger"><a href="/Vietnamese">Vietnamese Grammar and phrases</a></button></div>
+      <div class="col"><button type="button" class="btn btn-danger"><a href="/Cantonese">Cantonese Grammar and phrases</a></button></div>
+      
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<h2><center><u>Below are pie charts to visualize your journey</u></center></h2>
+
+<!--Vietnamese section-->
+<h3>Vietnamese</h3>
+<img class="bg-white" style="padding: 10px; border-radius: 5px;" src="/static/Vietnamese_chart.png" alt="Image unavalible">
+
+<p>Description: Vietnamese has six tones, although the grammar and puncuation is easy the pronounciation can be quite difficult. The Vietnamese language is used by 76 million people. </p>
+
+<!--Cantonese section-->
+<h3>Cantonese</h3>
+<img class="bg-white" style="padding: 10px; border-radius: 5px;" src="/static/Cantonese_chart.png" alt="Image unavalible">
+<p>Description: Cantonese consists of six tones despite the difficult grammar, the sentence structure is simple and easy to learn. Cantonese is practiced by 80 million people.</p>
+
+
+
+
+</div>
+{% endblock %}
